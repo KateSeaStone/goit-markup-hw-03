@@ -6,17 +6,11 @@
   /* outline: 1px solid yellow; */
 }
 
-img {
-  display: block;
-}
+img {display: block;}
 
-address {
-  font-style: normal;
-}
+address {font-style: normal;}
 
-button {
-  cursor: pointer;
-}
+button {cursor: pointer;}
 
 /* CSS-переменные проекта */
 :root {
