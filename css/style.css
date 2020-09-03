@@ -400,7 +400,7 @@ margin-bottom: 94px;
   margin-bottom: 34px;
 }
 
-.filter-button:not(:last-child) {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
