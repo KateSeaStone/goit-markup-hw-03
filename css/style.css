@@ -240,6 +240,11 @@ margin-bottom: 9px;
   margin-bottom: 200px;
 }
 
+.hero-button:hover
+ {color: var(--accent-color);
+  background-color: var(--primery-white-color);
+}
+
 .section-hero {
 display: flex;
 min-height: 600px;
