@@ -220,7 +220,6 @@ margin-bottom: 9px;
 }
 
 .hero-button {
-  display: block;
   border-radius: 4px;
   border: transparent;
   font-family: inherit;
@@ -235,8 +234,6 @@ margin-bottom: 9px;
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
-  margin-left:  auto;
-  margin-right: auto;
   margin-bottom: 200px;
 }
 
@@ -246,23 +243,23 @@ margin-bottom: 9px;
 }
 
 .section-hero {
-display: flex;
-min-height: 600px;
-padding-top: 50px;
-padding-bottom: 50px;
-justify-content: center; 
-background-color: var(--hero-footer-background-color);
-margin-bottom: 94px;
-}
-
-.section-hero-box {
-  margin: auto;
-  width: 1200px;
-}
+  display: flex;
+  min-height: 600px;
+  max-width: 1600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center; 
+  background-color: var(--hero-footer-background-color);
+  margin-bottom: 94px;
+  }
+  
+  .section-hero-box {
+    text-align: center;}
 
 /* Sections */
 
 /* Наши особенности */
+
 .section-features .conteiner {
   display: flex;
 }
