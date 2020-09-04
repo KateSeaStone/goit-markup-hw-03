@@ -78,8 +78,6 @@ align-items: center;
   margin-right: 50px;
  }
 
-
-
           /* Logo */ 
 .logo {
   margin-right: 93px;
@@ -217,12 +215,12 @@ margin-bottom: 9px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 200px;
 }
 
 .hero-button {
+  display: block;
   border-radius: 4px;
   border: transparent;
   font-family: inherit;
@@ -234,29 +232,28 @@ margin-bottom: 9px;
   background-color: var(--accent-color);
   text-decoration: none;
   text-align: center;
-
-  margin-bottom: 200px;
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-bottom: 200px;
 }
 
-.hero .conteiner {
+.section-hero {
 display: flex;
-/* margin: auto; */
-/* width: 696px; */
-justify-items: center;
-flex-direction: column;
-align-items: center;
-/* padding: 200px 452px 280px 452px; */
+min-height: 600px;
+padding-top: 50px;
+padding-bottom: 50px;
+justify-content: center; 
+background-color: var(--hero-footer-background-color);
+margin-bottom: 94px;
 }
 
-.hero {
-  padding-top: 200px;
-  margin-bottom: 94px;
-  background-color: var(--hero-footer-background-color);
+.section-hero-box {
+  margin: auto;
+  width: 1200px;
 }
-
 
 /* Sections */
 
@@ -355,12 +352,9 @@ margin-bottom: 94px;
 /* Стили для portfolio.html */
 
 /* Портфолио */
-/* .header {
-  margin-bottom: 94px;
-} */
-
 .portfolio {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* Фильтры */
@@ -396,7 +390,6 @@ margin-bottom: 94px;
 .filter {
   display: flex; 
   margin: 0 auto;
-  margin-top: 94px;
   margin-bottom: 34px;
 }
 
